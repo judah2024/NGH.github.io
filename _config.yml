@@ -55,8 +55,9 @@ about_content: | # this will include new lines to allow paragraphs
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
+    colunm: 2
     content:
-      - layout: left
+      - layout: top-middle
         border: regular  # regular border style
         title: 액션 게임 프로젝트
         link: github.com/judah2024/actionGame
@@ -73,7 +74,7 @@ content:
           - 인벤토리
           - AI 시스템
 
-      - layout: right
+      - layout: top-middle
         border: regular
         title: RPG 프로젝트
         link: github.com/judah2024/rpgGame
@@ -90,7 +91,7 @@ content:
           - 캐릭터 성장
           - 전투 시스템
 
-      - layout: left
+      - layout: top-middle
         border: regular
         title: 퍼즐 게임
         link: github.com/judah2024/puzzleGame
@@ -107,7 +108,7 @@ content:
           - 레벨 디자인
           - UI/UX
 
-      - layout: right
+      - layout: top-middle
         border: regular
         title: 멀티플레이어 게임
         link: github.com/judah2024/multiGame
